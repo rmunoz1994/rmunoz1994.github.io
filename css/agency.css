@@ -762,6 +762,9 @@ section#skills .section-heading {
 
 .intro-skills {
   /* background: rgba(28,28,28,0.8); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   border-radius: 8px;
   padding: 8px;
   margin-top: 40px;
