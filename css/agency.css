@@ -170,7 +170,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background: linear-gradient(to bottom, rgba(28,28,28,0.5) 0, rgba(28,28,28,0.5) 100%),url("../img/city_bg.png");
+  background: linear-gradient(to bottom, rgba(28,28,28,0.8) 0, rgba(28,28,28,0.8) 100%),url("../img/city_bg.png");
   /* background-image: url("../img/city_bg.png"); */
   background-repeat: no-repeat;
   background-attachment: scroll;
