@@ -55,12 +55,12 @@ section h3.section-subheading {
 }
 
 .icon-container {
-  font-size: 125px;
+  font-size: 100px;
   text-align: center;
 }
 
 #icon {
-  padding: 32px;
+  padding: 16px;
 }
 
 .btn {
@@ -750,7 +750,8 @@ section#skills .section-heading {
   font-weight: 700;
   color: white;
   margin-bottom: 0;
-  margin-right: 15px;
+  font-size: 24px;
+  /* margin-right: 15px; */
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -760,7 +761,7 @@ section#skills .section-heading {
 } */
 
 .intro-skills {
-  background: rgba(28,28,28,0.8);
+  /* background: rgba(28,28,28,0.8); */
   border-radius: 8px;
   padding: 8px;
   margin-top: 40px;
