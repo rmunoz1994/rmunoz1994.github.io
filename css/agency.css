@@ -394,7 +394,7 @@ header.masthead .intro-text .intro-heading {
   list-style: none;
 }
 
-.timeline:before {
+/* .timeline:before {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -403,7 +403,7 @@ header.masthead .intro-text .intro-heading {
   margin-left: -1.5px;
   content: '';
   background-color: #e9ecef;
-}
+} */
 
 .timeline > li {
   position: relative;
@@ -748,15 +748,16 @@ section#skills .section-heading {
 
 .contact-h2 {
   font-weight: 700;
+  color: white;
   margin-bottom: 0;
   margin-right: 15px;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-.intro-skills-container {
+/* .intro-skills-container {
   margin-left: 200px;
   margin-right: 200px;
-}
+} */
 
 .intro-skills {
   background: rgba(28,28,28,0.8);

@@ -11,7 +11,7 @@
   <title>Raymond Munoz</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -92,18 +92,28 @@
           <h2 class="section-heading text-uppercase">About</h2>
         </div>
       </div>
-      <div class="about-container">
-        <div class="about-img-container">
-          <img class="about-img" src="img/portfolio-square.jpg" alt="">
-        </div>
-        <div class="timeline-body">
-          <p class="text-muted">
-          I'm a software engineer that runs on the ability to apply both the technical and creative sides of my mind to whatever project I am working on.
-          Throughout my time at Brown University I applied this to coding, live action film editing, and creating computer
-          animated films. The joy of seeing how far a project has advanced through its various production stages is an
-          unparalleled thrill that I continue to seek everyday. Working in full stack development I have utilized Ruby, Rails,
-          Javascript, React, Redux, PostgreSQL, CSS, and HTML in my applications. I learn at a quick pace and plan on continuing
-          to pick up more tools to bring my ideas to life!</p>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <!-- <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/portfolio-square.jpg" alt="">
+              </div> -->
+              <div class="timeline-body">
+                <p class="text-muted">
+                I'm a software engineer that runs on the ability to apply both the technical and creative sides of my mind to whatever project I am working on.
+                Throughout my time at Brown University I applied this to coding, live action film editing, and creating computer
+                animated films. The joy of seeing how far a project has advanced through its various production stages is an
+                unparalleled thrill that I continue to seek everyday. Working in full stack development I have utilized Ruby, Rails,
+                Javascript, React, Redux, PostgreSQL, CSS, and HTML in my applications. I learn at a quick pace and plan on continuing
+                to pick up more tools to bring my ideas to life!</p>
+              </div>
+
+            </li>
+
+          </ul>
+          
+
         </div>
       </div>
     </div>
@@ -142,37 +152,42 @@
           <h2 class="section-heading text-uppercase">Portfolio</h2>
         </div>
       </div>
-      <div class="portfolio-custom">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+      <div class="row">
+
+        <!-- <div class="portfolio-custom"> -->
+  
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
               </div>
+              <img class="img-fluid" src="img/portfolio/youtoob_thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>YouToob</h4>
+              <p class="text-muted">Fullstack Youtube Clone</p>
             </div>
-            <img class="img-fluid" src="img/portfolio/youtoob_thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>YouToob</h4>
-            <p class="text-muted">Fullstack Youtube Clone</p>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+  
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
               </div>
+              <img class="img-fluid" src="img/portfolio/hyperbounce_thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Hyperbounce</h4>
+              <p class="text-muted">Javascript Game</p>
             </div>
-            <img class="img-fluid" src="img/portfolio/hyperbounce_thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Hyperbounce</h4>
-            <p class="text-muted">Javascript Game</p>
-          </div>
-        </div>
-       
-        
+          </div> 
+  
+        <!-- </div> -->
+
       </div>
     </div>
   </section>
@@ -185,7 +200,7 @@
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact</h2>
         </div>
-        <div class="contact-info">
+        <div class="col-md-3 col-sm-6"> <!-- contact-info -->
           <h2 class="contact-h2">EMAIL</h2>
           <div> <a href="mailto:Raymond_Munoz@alumni.brown.edu">Raymond_Munoz@alumni.brown.edu</a></div>
         </div>
